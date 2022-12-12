@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+header {
+    height: 80px;
+}
+
 .logo {
     position: absolute;
     top: 40px;
@@ -14,16 +18,12 @@ body {
 }
 
 .container {
-    position: relative;
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width: 100vw;
-    height: 90vh;
-}
-.game {
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
 }
 
 .btn {
@@ -68,10 +68,13 @@ canvas {
 }
 
 .word {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 600;
     text-transform: uppercase;
+    letter-spacing: 30px;
+    margin-right: -30px;
 }
+
 footer {
     position: absolute;
     display: flex;
